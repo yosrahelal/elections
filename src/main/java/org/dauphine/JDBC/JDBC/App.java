@@ -14,7 +14,7 @@ public class App {
 			driver = (Driver) DriverManager.getDriver("jdbc:h2:~/test");
 
 			System.out.println(
-					"driver version number = " + " " + driver.getMajorVersion() + "." + driver.getMinorVersion());
+					"driver pilote version number = " + " " + driver.getMajorVersion() + "." + driver.getMinorVersion());
 
 		} catch (SQLException e) {
 
